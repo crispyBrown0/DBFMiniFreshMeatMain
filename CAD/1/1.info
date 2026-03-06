@@ -1,0 +1,56 @@
+Model: Fuselage.SLDPRT
+Project name: Fuselage CFD
+Config name: Default
+Project path: C:\Users\gioba\Desktop\Program Folders\DBFMiniFreshMeatMain\CAD\1\1.xmlconfig
+Status: Finished
+
+Number of cells:
+    Total cells: 95866
+    Fluid cells: 95866
+    Solid cells: 1116
+    Fluid cells containing solids: 726
+
+
+Geometry preparation finished: 00:40:03
+Geometry preparation time: 00:00:01
+Solver CPU time: 00:01:25
+Iterations: 141
+Travels: 1.54040
+Physical time: 0.000000e+00 s
+Current time step: 0.000000e+00 s
+Last iteration finished: 00:41:24
+CPU time per last iteration: 00:00:01
+CPU time left: 00:00:02
+Iterations per 1 travel: 92
+
+Goals
+    Name                        | Unit (SI)           | Value           | Progress  | Critetia        | Delta           | Use in convergence
+    GG Maximum Total Pressure 1 | pressure and stress |       101390.25 |     100.0 |            1.56 |            0.01 | On
+    GG Normal Force (X) 2       | force               |            0.00 |     100.0 |            0.00 |            0.00 | On
+    GG Normal Force (Y) 3       | force               |            0.03 |     100.0 |            0.00 |            0.00 | On
+    GG Normal Force (Z) 4       | force               |           -0.02 |     100.0 |            0.00 |            0.00 | On
+
+Project details
+    Default fluids: Air
+    Analysis type: External
+    Heat conduction in solids: Off
+    Radiation: Off
+    Time dependent: Off
+    Gravitational effects: Off
+    Flow type: Laminar and turbulent
+    Cavitation: Off
+    Hign Mach number flow: On
+    Free surface: Off
+    Structural: Off
+    Electromagnetism: Off
+
+System info
+    Product: Flow Simulation 2025  x64 / 6784 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2
+    CAD version: SOLIDWORKS 2025 SP3.0
+    Computer name: GIOVANNI
+    User name: gioba
+    Operating system: Windows 11 (or higher) (Version 10.0.26200)
+    Processors: AMD Ryzen 5 5500                               
+    Number of cores: 12
+    Memory: 3547 MB / 16278 MB
+

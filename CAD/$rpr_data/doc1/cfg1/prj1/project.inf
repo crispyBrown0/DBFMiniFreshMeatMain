@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<version>1</version>
+	<name>Fuselage CFD</name>
+	<uuid>006a4713-7579-4482-a34f-3cfc83815eac</uuid>
+	<directory>prj1</directory>
+	<vwr_res_files_dir>1</vwr_res_files_dir>
+	<geom_db_uuid>a2dd918b-6d67-456c-8b09-4200ef0ba0c3</geom_db_uuid>
+	<gdb_light_uuid>3a01aeb6-d746-4793-b9fc-3776b275c975</gdb_light_uuid>
+	<model_geom_uuid/>
+	<template_id/>
+</project>

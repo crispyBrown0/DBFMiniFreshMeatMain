@@ -1,0 +1,100 @@
+{
+    "version": 0,
+    "model_name": "Fuselage.SLDPRT",
+    "project_name": "Fuselage CFD",
+    "config_name": "Default",
+    "project_path": "C:\\Users\\gioba\\Desktop\\Program Folders\\DBFMiniFreshMeatMain\\CAD\\1\\1.xmlconfig",
+    "finished": true,
+    "mesh": {
+        "cells_total": 95866,
+        "cells_fluid": 95866,
+        "cells_solid": 1116,
+        "cells_fluid_containing_solid": 726
+    },
+    "telemetry": {
+        "prepare_geometry_finished": "00:40:03-0800",
+        "prepare_geometry_total_time": 1,
+        "cpu_time_solver_total": 85,
+        "iteration": 141,
+        "travel": 1.5404026238249622,
+        "phys_time": 0.0,
+        "time_step": 0.0,
+        "last_iteration_finished": "00:41:24-0800",
+        "cpu_time_per_last_iter": 1,
+        "cpu_time_left": 2,
+        "iterations_per_travel": 92
+    },
+    "goals": [
+        {
+            "goal": {
+                "name": "GG Maximum Total Pressure 1",
+                "unit": "pressure and stress",
+                "value": 101390.24825598327,
+                "progress": 100.0,
+                "criteria": 1.5560282662266398,
+                "delta": 0.009931603199220262,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Normal Force (X) 2",
+                "unit": "force",
+                "value": 0.0003051122327728822,
+                "progress": 100.0,
+                "criteria": 0.00047042802076123263,
+                "delta": 0.00020862685722393637,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Normal Force (Y) 3",
+                "unit": "force",
+                "value": 0.028825355555220783,
+                "progress": 100.0,
+                "criteria": 0.0007611939479961931,
+                "delta": 0.0007051065209585025,
+                "use_in_convergence": true
+            }
+        },
+        {
+            "goal": {
+                "name": "GG Normal Force (Z) 4",
+                "unit": "force",
+                "value": -0.020609399039538102,
+                "progress": 100.0,
+                "criteria": 0.0022868918961011383,
+                "delta": 0.00014886176127614642,
+                "use_in_convergence": true
+            }
+        }
+    ],
+    "settings": {
+        "default_fluids": [
+            "Air"
+        ],
+        "analysis_type": "external",
+        "heat_conduction_in_solids": false,
+        "radiation": false,
+        "time_dependent": false,
+        "gravity": false,
+        "flow_type": "laminar and turbulent",
+        "cavitation": false,
+        "high_mach_number": true,
+        "free_surface": false,
+        "structural": false,
+        "electromagnetism": false
+    },
+    "system_info": {
+        "product_name": "Flow Simulation 2025  x64 / 6784 / SOLVER ver. efd_dev.5608_04.02.2022+HMN_Inlet_Rework_V1+HMN_Inlet_Rework_V2",
+        "cad_version": "SOLIDWORKS 2025 SP3.0",
+        "computer_name": "GIOVANNI",
+        "user_name": "gioba",
+        "os": "Windows 11 (or higher) (Version 10.0.26200)",
+        "cpu": "AMD Ryzen 5 5500                               ",
+        "number_of_cores": 12,
+        "memory_avail": 3547,
+        "memory_total": 16278
+    }
+}

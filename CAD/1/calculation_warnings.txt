@@ -1,0 +1,7 @@
+2026-Mar-06 00:41:25
+Computer name:	GIOVANNI
+Number of cores used in calculation:	12
+Configuration name:	Default
+Project name:	Fuselage CFD
+
+Warnings on last iteration: 
